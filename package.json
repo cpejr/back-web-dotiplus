@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "preinstall": "npx npm-force-resolutions",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "npx nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "gitignore": "^0.7.0"
+    "gitignore": "^0.7.0",
+    "mongoose": "^8.0.2"
   }
 }
