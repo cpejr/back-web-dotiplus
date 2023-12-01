@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "preinstall": "npx npm-force-resolutions",
+  
   "scripts": {
     "start": "npx nodemon src/index.js"
   },

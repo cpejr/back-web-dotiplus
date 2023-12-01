@@ -1,6 +1,6 @@
-const app = require("./App");
-const Loaders = require("./Loaders/index");
-const dotenv = require("dotenv");
+import app from "./app.js";
+import Loaders from "./Loaders/index.js";
+import dotenv from "dotenv";
 
 Loaders.start();
 dotenv.config();
